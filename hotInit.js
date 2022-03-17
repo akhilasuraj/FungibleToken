@@ -2,7 +2,7 @@
 // Hot Secret: ssFqDFpJ8RG9iRwYdj8NnoUXtcuQN
 
 const xrpl = require('xrpl')
-import { cold_wallet, hot_wallet } from "./wallets"
+const { cold_wallet, hot_wallet } = require("./wallets")
 
 const recieve = async () => {
     const client = new xrpl.Client("wss://s.altnet.rippletest.net:51233")

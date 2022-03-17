@@ -1,5 +1,5 @@
 const xrpl = require('xrpl')
-const { hot_wallet, cold_wallet } = require('./wallets')
+const { hot_wallet } = require('./wallets')
 
 const balance = async () => {
     const client = new xrpl.Client("wss://s.altnet.rippletest.net:51233")
